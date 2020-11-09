@@ -1,0 +1,12 @@
+def replay():
+    again = input('Would you like to play again? (y/n)\t')
+    if again == 'y':
+        new_type = input('New game type: (y/n)\t')
+        if new_type == 'y':
+            game_type()
+        if new_type == 'n':
+            throws = 0
+            game_501(type, throws)
+    if again == 'n':
+        print('All Done, Come play again soon!!')
+        exit()

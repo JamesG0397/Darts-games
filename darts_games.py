@@ -60,6 +60,7 @@ def game_501(type, throws):
                         game_type()
                     if new_type == 'n':
                         throws = 0
+                        type = 501
                         game_501(type, throws)
                 if again == 'n':
                     print('All Done, Come play again soon!!')
