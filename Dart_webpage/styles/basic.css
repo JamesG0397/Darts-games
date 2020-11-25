@@ -1,0 +1,37 @@
+<style medie="screen">
+    a{
+        font-family: monospace;
+        text-decoration: underline;
+        font-weight: none
+    }
+    a:link{
+        color: black
+    }
+    a:visited{
+        color: red;
+    }
+    a:hover{
+        text-decoration: none;
+        color: blue;
+        font-family: cursive;
+    }
+    a:active{
+        font-weight: bold;
+    }
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        width: 50%;
+        height: 25px;
+        text-align: center;
+    }
+    tbody tr:nth-child(even){
+        background-color: lightblue;
+    }
+    tbody tr:nth-child(odd){
+        background-color:  gray;
+    }

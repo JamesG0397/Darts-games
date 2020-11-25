@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="styles/form.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+    </head>
+    <body>
+        <header>
+            <h1> Login</h1>
+        </header>
+        <nav>
+            <a href="default.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="stats.html"> Stats</a>
+            <a href="multiplayer/multi_options.html">Multiplayer</a>
+        </nav>
+        <form class="" action="index.html" method="post">
+            Login username:<input type="text" name="userNAME"> <br>
+            Login Password:<input type="password" name="userPASSWORD"> <br>
+            <input type="submit"> <input type="reset">
+        <br><br>
+        </form>
+        <br><br>
+        <form class="" action="index.html" method="post">
+            If have no account fill in this form:<br>
+            New username:<input type="text" name="userNAME"><br>
+            New password:<input type="text" name="userPASSWORD"><br>
+            Level of play, select rough average:<br>
+            <input type="checkbox" name="average" value="<20"> less than 20 <br>
+            <input type="checkbox" name="average" value="20-40"> 20-40 <br>
+            <input type="checkbox" name="average" value="40-60"> 40-60 <br>
+            <input type="checkbox" name="average" value="60-80"> 60-80 <br>
+            <input type="checkbox" name="average" value="80+"> more than 80 <br>
+            <br>
+            <label for="Goals">What are your Goals?</label>
+            <select name="Goals">
+                <option value="improve">Improve</option>
+                <option value="social">Social</option>
+                <option value="compete">Compete</option>
+            </select><br><br><br>
+            <textarea name="about-you" rows="8" cols="80">Info about you</textarea><br>
+            <input type="submit"><input type="reset">
+        </form>
+    </body>
+</html>
